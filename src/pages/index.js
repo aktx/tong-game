@@ -4,13 +4,23 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import "./main-menu.css"
 
+// function toggleFullScreen() {
+  // if (!document.fullscreenElement) {
+    document.documentElement.requestFullscreen()
+//   } else {
+//     if (document.exitFullscreen) {
+//       document.exitFullscreen()
+//     }
+//   }
+// }
+// toggleFullScreen()
 const IndexPage = () => (
   <Layout>
     <div className="main-menu">
       {/* <button>
         <Link to="/hello-video">Начать игру</Link>
       </button> */}
-       <button>
+      <button>
         <Link to="/slide/police-1">Начать игру</Link>
       </button>
       <button>
