@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import "./main-menu.css"
 
-window.addEventListener("load",function() {
-  setTimeout(function(){
-      // This hides the address bar:
-      window.scrollTo(0, 1);
-  }, 0);
-});
+// window.addEventListener("load",function() {
+//   setTimeout(function(){
+//       // This hides the address bar:
+//       window.scrollTo(0, 1);
+//   }, 0);
+// });
 const IndexPage = () => (
   <Layout>
     <div className="main-menu">
