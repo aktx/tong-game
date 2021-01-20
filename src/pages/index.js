@@ -4,16 +4,12 @@ import { Link } from "gatsby"
 import Layout from "../components/layout"
 import "./main-menu.css"
 
-// function toggleFullScreen() {
-  // if (!document.fullscreenElement) {
-    document.documentElement.requestFullscreen()
-//   } else {
-//     if (document.exitFullscreen) {
-//       document.exitFullscreen()
-//     }
-//   }
-// }
-// toggleFullScreen()
+window.addEventListener("load",function() {
+  setTimeout(function(){
+      // This hides the address bar:
+      window.scrollTo(0, 1);
+  }, 0);
+});
 const IndexPage = () => (
   <Layout>
     <div className="main-menu">
