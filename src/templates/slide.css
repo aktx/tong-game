@@ -1,0 +1,9 @@
+.slide__img img {
+  display: grid;
+  height: 380px !important;
+}
+
+.slide__buttons {
+  display: grid;
+  grid-gap: 5px;
+}

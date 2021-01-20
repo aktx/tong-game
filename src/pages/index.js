@@ -2,20 +2,27 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
-import SEO from "../components/seo"
+import "./main-menu.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>HUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUI</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div className="main-menu">
+      {/* <button>
+        <Link to="/hello-video">Начать игру</Link>
+      </button> */}
+       <button>
+        <Link to="/slide/police-1">Начать игру</Link>
+      </button>
+      <button>
+        <Link to="/help">Обратиться за бесплатной юридической помощью</Link>
+      </button>
+      <button>
+        <Link to="/walonter">Стать волонтером</Link>
+      </button>
+      <button>
+        <Link to="/support">Поддержать разработку игры</Link>
+      </button>
     </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
 )
 

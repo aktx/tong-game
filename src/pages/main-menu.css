@@ -1,0 +1,10 @@
+.main-menu {
+  height: 100%;
+  display: grid;
+  grid-gap: 15px;
+  align-items: flex-end;
+  align-content: flex-end;
+  background-image: url('../images/main-menu.png');
+  background-repeat: no-repeat;
+
+}

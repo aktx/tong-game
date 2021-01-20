@@ -1,11 +1,18 @@
+#___gatsby,
+#gatsby-focus-wrapper,
+main {
+  height: 100%;
+}
 html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font: 112.5%/1.45em georgia, serif, sans-serif;
   box-sizing: border-box;
   overflow-y: scroll;
+  height: 100%;
 }
 body {
+  height: 100%;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -594,4 +601,16 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+}
+
+
+/* JONG-GAME-STYLES */
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+button {
+  display: grid;
 }
